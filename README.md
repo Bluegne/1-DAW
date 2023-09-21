@@ -1,2 +1,5 @@
 # 1-DAW
-This is the repository that I´m using in this class
+Este es el repositorio de clase
+-------------------------------
+Génesis Elena Contreras Cabrera
+-------------------------------
