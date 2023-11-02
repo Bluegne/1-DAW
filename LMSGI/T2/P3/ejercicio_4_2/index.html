@@ -9,19 +9,20 @@
     <h2>INDUSTRIAS ACME. FORMULARIO DE PEDIDO</h2>
 
     <form>
-        <p>
-            <b>Datos del cliente:</b> <br>
-            Correo Electrónico <input type="text" name="correo"><br>
-            Contraseña <input type="text" name="contraseña" size="10"><br>
+        <div>
+            <label><b>Datos del cliente:</b</label><br>
+            <label>Correo Electrónico <input type="text" name="correo"></label><br>
+            <label>Contraseña <input type="text" name="contraseña" size="10"></label><br>
             (Longitud mínima 6 caracteres)<br>
-            Tipo de Cliente: 
+            <label>Tipo de Cliente:</label> 
         <input type="radio" name="tipo-cliente" value="particular" checked> Partícular
         <input type="radio" name="tipo-cliente" value="asociacion" checked> Asociación
         <input type="radio" name="tipo-cliente" value="empresa" checked> Empresa
-        </p>
+        </div>
+        <br>
 
-       <div><b>Datos de productos:</b></div>
        <div>
+        <label><b>Datos de productos:</b></label><br>
         <select name="Datos de productos">
             <option value="AR001"> AR001 Oro Reluciente</option>
             <option value="AR002"> AR002 Plata Pulida</option>
@@ -30,30 +31,34 @@
             <option value="EX002"> EX002 Invisibilidad</option>
         </select>
        </div>
-       <p>
-        <b>Datos del envío:</b><br>
-        Dirección <br>
-        <input type="text" name="direccion" size=40> <br>
-        Ciudad <br>
-        <input type="text" name="ciudad"> Código Postal <input type="text" name="cod-postal" size=5>
-       </p>
-       <p>
-        <b>Datos bancarios:</b><br>
-        Nombre de la Entidad <br>
-        <input type="text" name="nombre-entidad"><br>
-        Nº de Cuenta <br>
-        <input type="text" name="num-cuenta"><br>
-       </p>
+       <br>
 
-       <p><b>Información de interés:</b><br>
-            Comentarios<br>
-            <form action="index.html" method="post">
-                <textarea style="resize:none" name="comentarios" rows="4" cols="70">Escriba aquí sus comentarios...</textarea>
-            </form>
+        <div>
+        <label><b>Datos del envío:</b></label><br>
+        <label>Dirección</label> <br>
+        <input type="text" name="direccion" size=40> <br>
+        <label>Ciudad</label><br>
+        <input type="text" name="ciudad"> Código Postal <input type="text" name="cod-postal" size=5>
+        </div>
+        <br>
+       
+        <div>
+            <label><b>Datos bancarios:</b></label><br>
+            <label>Nombre de la Entidad</label><br>
+            <input type="text" name="nombre-entidad"><br>
+            <label>Nº de Cuenta</label><br>
+            <input type="text" name="num-cuenta"><br>
+       </div>
+       <br>
+
+       <div>
+        <label><b>Información de interés:</b></label><br>
+           <label>Comentarios</label><br>
+            <textarea style="resize:none" name="comentarios" rows="4" cols="70">Escriba aquí sus comentarios...</textarea> <br>
             <input type="checkbox" name="acepta-condiciones" value="condiciones" checked> Acepto recibir información publicitaria
-            <br>
-            <br>
+            <br><br>
         <input type="submit" value="Enviar pedido"> <input type="submit" value="Cancelar"> 
-       </p>
+       </div>
+    </form>
 </body>
 </html>
