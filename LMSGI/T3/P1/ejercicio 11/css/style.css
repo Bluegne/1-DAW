@@ -1,0 +1,49 @@
+
+body {
+font-family: Arial, sans-serif;
+background-color:rgb(226, 207, 226);
+color: #515151;
+margin: 0;
+padding: 20px;
+}
+
+.round-image img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+  
+header {
+background-color: rgb(137, 96, 137);
+color: #fff;
+ padding: 20px;
+}
+
+header h1 {
+font-size: 38px;
+margin: 0;
+}
+
+header h2 {
+font-size: 25px;
+margin: 0;
+}
+
+section {
+margin-bottom: 18px;
+background-color: #fff;
+padding: 18px;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+ul li {
+margin-bottom: 6px;
+}
+
+
+
+
