@@ -1,0 +1,42 @@
+div.box {
+    border: 1.5px solid rgb(70, 69, 69);
+    margin: 0px;
+    width: 100%;
+    line-height: 130%;
+}
+
+div.left-box {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+div.box-title,
+div.footer {
+    color: white;
+    padding: 0.4em;
+
+}
+
+div.box-title {
+    background-color: rgb(116, 22, 22);
+}
+
+h1.box-title {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+div.box-content {
+    margin-left: 190px;
+    border-left: 1px solid gray;
+    padding: 1em;
+}
+
+div.footer {
+    border-top: 4px solid #b1afaf;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+}
