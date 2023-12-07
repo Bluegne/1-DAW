@@ -1,0 +1,38 @@
+body {
+    border: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+}
+.box {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(220, 238, 255);
+    border: 1px solid rgb(116, 158, 236);
+}
+.table {
+    display: table;
+}
+.row {
+    display: table-row;
+    height: 25px;
+}
+.celda {
+    display: table-cell;
+}
+.etiqueta {
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: top;
+    width: 60%;
+}
+.control {
+    text-align: left;
+    width: auto;
+}
+.button {
+    text-align: center;
+}

@@ -1,14 +1,16 @@
-*{   
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-body{
-    width:100%;
+
+body {
+    width: 100%;
     background-image: url("../img/homepage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 nav {
     width: 100%;
     background-color: rgb(114, 63, 114);
@@ -18,48 +20,42 @@ nav {
 }
 
 
-div.varios {
-
-}
-
-h1{
+h1 {
     font-family: sans-serif;
     text-align: center;
     font-size: 2em;
     color: #f0f0f0;
 }
 
-h2, p{
+p {
     font-family: sans-serif;
-}
-
-div.characters{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
-}
-
-.character-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    margin: 10px;
-    
-}
-
-.character-card img {
-    max-width: 100%;
-    border-radius: 50%;
 }
 
 h2 {
     margin-top: 10px;
     font-size: 1.2em;
     color: #333;
+}
+
+.navbar {
+    background-color: rgb(160, 114, 160);
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 

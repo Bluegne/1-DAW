@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 6.3</title>
+</head>
+
+<body>
+    <h2>INDUSTRIAS ACME. FORMULARIO DE PEDIDO</h2>
+    <form>
+        <div class="box">
+            <div class="table">
+                <div class="row">
+                    <div class="celda etiqueta"><p><b>Datos del cliente:</b></p></div>
+                    <div class="celda control"> </div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Nombre</div>
+                    <div class="celda control"><input type="text" id="pass" size="50" maxlength="60"></div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Correo Electrónico</div>
+                    <div class="celda control"><input type="text" id="email" size="40" maxlength="50"></div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Tipo de cliente</div>
+                    <div class="celda control">
+                        <input type="radio" name="tipo-cliente" value="particular" checked> Partícular <br>
+                        <input type="radio" name="tipo-cliente" value="asociacion" checked> Asociación <br>
+                        <input type="radio" name="tipo-cliente" value="empresa" checked> Empresa <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta negrita negrita"><p><b> Datos de los productos:</b></p></div>
+                    <div class="celda control"> </div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Productos solicitados </div>
+                    <div class="celda control">
+                        <select id="producto" name="producto" multiple size="5">
+                            <option value="AR001"> AR001 Oro Reluciente</option>
+                            <option value="AR002"> AR002 Plata Pulida</option>
+                            <option value="AR003"> AR003 Bronce Reforzado</option>
+                            <option value="EX001"> EX001 Escudo</option>
+                            <option value="EX002"> EX002 Invisibilidad</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta negrita"><p><b>Datos del envío:</b></p></div>
+                    <div class="celda control"> </div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Dirección</div>
+                    <div class="celda control"><input type="text" id="dire" size="50" maxlength="80"></div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Ciudad</div>
+                    <div class="celda control"><input type="text" id="ciudad" size="30" maxlength="30"></div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Código Postal</div>
+                    <div class="celda control"><input type="text" id="cp" size="5" maxlength="20"></div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta"><p><b>Datos bancarios:</b></p></div>
+                    <div class="celda control"> </div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Nombre de la entidad</div>
+                    <div class="celda control"><input type="text" id="entidad" size="40"></div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Número de Cuenta</div>
+                    <div class="celda control"><input type="text" id="cuenta" size="30"></div>
+                </div>
+
+                <div class="row">
+                    <div class="celda etiqueta negrita"><p><b>Otra información del pedido:</b></p></div>
+                    <div class="celda control"> </div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Comentarios</div>
+                    <div class="celda control"><textarea rows="4" cols="45">Escriba aquí sus comentarios...</textarea></div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta"> </div>
+                    <div class="celda control"> </div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta">Accepto recibir información publicitaria</div>
+                    <div class="celda control"><input type="checkbox" id="publi" value="si" checked></div>
+                </div>
+                <div class="row">
+                    <div class="celda etiqueta"> </div>
+                    <div class="celda control"> </div>
+                </div>
+            </div>
+                <div class="button">
+                    <input type="submit" value="Enviar pedido"> <input type="submit" value="Cancelar"> 
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
